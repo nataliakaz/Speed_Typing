@@ -1,0 +1,74 @@
+/* dentro de estilo.css */
+
+.highlight {
+    background-color: yellow;
+ }
+
+.error {
+    background-color: rgb(176, 85, 85);
+    border-color: red;
+ }
+
+ h1 {
+    color: #182e1a;
+    text-align: center; 
+  }
+  h4 {
+    color: #1d6d1f;
+    text-align: center; 
+  }
+  body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4dd6ad;
+
+}
+
+ button {
+    background-color: rgb(47, 163, 47);
+    position: center; 
+    border: none;
+    border-radius: 150px;
+    box-shadow: 20px 5px 30px rgba(61, 207, 12, 0.1);
+
+  }
+  button:active {
+    transform: scale(.30);
+    transition: transform .15s ease-in-out;
+}
+
+
+
+  input {
+    font-family:  Arial, sans-serif;
+    color: rgb(150, 12, 108);
+    border: none;
+    border-radius: 10px;
+    padding: auto;
+  }
+
+  #imagenGit {
+    width: 40%;
+    height: 40%;
+    position: center;
+    border: none;
+    border-radius: 10px;
+
+  }
+  .contenedor {
+    width:50%;
+    height: 50%;
+    max-width: 550px;
+    min-width: 600px;
+    height: 400px;
+    background: rgb(167, 179, 161);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 10px 4px 30px rgba(0,0,0,.1);
+    text-align: center;
+}
